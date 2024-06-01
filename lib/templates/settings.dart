@@ -17,8 +17,7 @@ class Parametre extends StatefulWidget {
 
 class _ParametreState extends State<Parametre> {
   // MY APP COPYRIGHT WEB SITE URL
-  final Uri _url = Uri.parse(
-      'https://www.freeprivacypolicy.com/live/da91eeae-ee8f-4f03-87e8-b89f1e9cf689');
+  final Uri _url = Uri.parse('copyright-url');
 
   // FUNCTION TO LAUNCH URL
   Future<void> _launchUrl() async {
@@ -30,7 +29,7 @@ class _ParametreState extends State<Parametre> {
   //////////////////////////////////////////////////////////////////////////////////////////
 
   // STRIPE PAY LINK
-  final Uri _urlStripe = Uri.parse('https://buy.stripe.com/3cs7vQ9ebfUDf6weUU');
+  final Uri _urlStripe = Uri.parse('stripe-link-pay');
 
   // FUNCTION TO LAUNCH URL STRIPE PAY LINK
   Future<void> _launchUrlStripe() async {
