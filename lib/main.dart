@@ -15,16 +15,15 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyBrB6t191XogodYEtT_sCoKflfKzDRBWuY",
-          authDomain: "lira-1a32f.firebaseapp.com",
-          projectId: "lira-1a32f",
-          storageBucket: "lira-1a32f.appspot.com",
-          messagingSenderId: "524526892618",
-          appId: "1:524526892618:web:22e02657ce20aec71a58b3",
-          measurementId: "G-CWKDFV8X1G"));
+          apiKey: "",
+          authDomain: "",
+          projectId: "",
+          storageBucket: "",
+          messagingSenderId: "",
+          appId: "",
+          measurementId: ""));
 
-  Gemini.init(
-      apiKey: "AIzaSyCbpZUoYxTeuN9puw-jnjjVx1jbkNnVbpg", enableDebugging: true);
+  Gemini.init(apiKey: "", enableDebugging: true);
 
   runApp(
     MultiProvider(providers: [
