@@ -257,9 +257,9 @@ Future sendEmail(String name, String email, String message) async {
   final response = await http.post(url,
       headers: {'Content-Type': 'application/json'},
       body: json.encode({
-        'service_id': "service_ojwmi2p",
-        'template_id': "template_stb08gw",
-        'user_id': "DxdvgqsKz1QB0gKTK",
+        'service_id': "",
+        'template_id': "",
+        'user_id': "",
         'template_params': {
           'from_name': name,
           'from_email': email,
